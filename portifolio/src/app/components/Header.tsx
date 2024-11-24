@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <header className="bg-gray-800 text-white">
+    <header className="bg-violet-600 text-white">
       <nav className="container mx-auto px-4 py-4">
         <ul className="flex space-x-4">
           <li><Link href="/" className="hover:text-gray-300">Início</Link></li>

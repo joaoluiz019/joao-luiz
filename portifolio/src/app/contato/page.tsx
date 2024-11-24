@@ -15,7 +15,7 @@ export default function Contato() {
           <label htmlFor="message" className="block mb-2">Mensagem</label>
           <textarea id="message" name="message" rows={4} className="w-full p-2 border rounded" required></textarea>
         </div>
-        <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Enviar</button>
+        <button type="submit" className="bg-violet-500 text-white px-4 py-2 rounded hover:bg-violet-600">Enviar</button>
       </form>
     </div>
   )
