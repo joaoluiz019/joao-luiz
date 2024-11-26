@@ -97,7 +97,7 @@ export default function Home() {
           <div className="max-w-3xl text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-8">Habilidades</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-              {['React', 'Next.js', 'Node.js', 'TypeScript', 'Tailwind CSS', 'MongoDB'].map((skill) => (
+              {['React', 'Next.js', 'Node.js', 'TypeScript', 'Tailwind CSS', 'Java', 'Spring Boot', 'Spring JPA', 'Spring Security'].map((skill) => (
                 <div key={skill} className="bg-gray-800 p-4 rounded-lg">
                   <p className="text-xl font-semibold">{skill}</p>
                 </div>
@@ -117,10 +117,10 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">Projetos</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
-                { title: 'Projeto 1', description: 'Descrição breve do projeto 1' },
-                { title: 'Projeto 2', description: 'Descrição breve do projeto 2' },
-                { title: 'Projeto 3', description: 'Descrição breve do projeto 3' },
-                { title: 'Projeto 4', description: 'Descrição breve do projeto 4' },
+                { title: 'Projeto 1', description: 'Em breve' },
+                { title: 'Projeto 2', description: 'Em breve' },
+                { title: 'Projeto 3', description: 'Em breve' },
+                { title: 'Projeto 4', description: 'Em breve' },
               ].map((project, index) => (
                 <div key={index} className="bg-gray-700 p-6 rounded-lg">
                   <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
